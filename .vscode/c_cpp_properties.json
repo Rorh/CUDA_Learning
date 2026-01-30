@@ -1,0 +1,33 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/rorschach/cpp_libs/libtorch-shared-with-deps-2.8.0+cu126/libtorch/include",
+                "/home/rorschach/cpp_libs/libtorch-shared-with-deps-2.8.0+cu126/libtorch/include/torch/csrc/api/include",
+                "/usr/local/cuda/include",
+                "/usr/local/cuda-12.4/include",
+                "/usr/local/cuda-12.4/targets/x86_64-linux/include",
+                "/usr/include/c++/*",
+                "/usr/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "/home/rorschach/cpp_libs/libtorch-shared-with-deps-2.8.0+cu126/libtorch/include",
+                    "/usr/local/cuda/include",
+                    "/usr/local/cuda-12.4/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}
